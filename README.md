@@ -22,7 +22,7 @@ spanish-pronunciation
 
 2. **Create a virtual environment (optional but recommended):**
    ```
-   python -m venv venv
+   python3 -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
    ```
 
@@ -36,7 +36,7 @@ spanish-pronunciation
 1. Open `src/main.py` and modify the list of words you want to generate audio for.
 2. Run the script:
    ```
-   python src/main.py
+   python3 src/main.py
    ```
 
 3. The audio files will be saved in the same directory as the script.
